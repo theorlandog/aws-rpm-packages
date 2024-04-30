@@ -27,7 +27,7 @@ Patch2:        awsvpnclient.runtimeconfig.patch
 Patch3:        awsvpnclient.deps.patch
 Patch4:        acvc.gtk..deps.patch
 
-Requires:      openssl-1
+Requires:      openssl
 BuildRequires: systemd-rpm-macros
 
 %description
