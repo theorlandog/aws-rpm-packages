@@ -14,7 +14,7 @@
 
 BuildArch:     x86_64
 Name:          awsvpnclient
-Version:       3.11.0
+Version:       3.12.2
 Release:       1
 License:       ASL 2.0
 Group:         Converted/misc
@@ -27,7 +27,7 @@ Patch2:        awsvpnclient.runtimeconfig.patch
 Patch3:        awsvpnclient.deps.patch
 Patch4:        acvc.gtk..deps.patch
 
-Requires:      openssl1.1
+Requires:      openssl-1
 BuildRequires: systemd-rpm-macros
 
 %description
